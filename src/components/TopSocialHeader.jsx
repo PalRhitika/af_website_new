@@ -13,7 +13,7 @@ const socialLinks = [
 
 const TopSocialHeader = () => {
   return (
-    <div className="bg-[#2e7170] text-white text-sm sticky top-0 z-50">
+    <div className="bg-[#2e7170] text-white text-sm fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-end space-x-4 py-2 px-4">
         {socialLinks.map(({ icon: Icon, href, label }) => (
           <a

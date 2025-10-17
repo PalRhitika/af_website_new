@@ -46,8 +46,8 @@ function HeroCarousel() {
           <p className="mt-4 text-lg md:text-xl max-w-2xl">We work at the intersection of health, education, and local resilience to build inclusive communities and empower women and youth through smart, grounded interventions.</p>
 
           <div className="mt-6 flex gap-4">
-            <a href="#mission" className="inline-block px-5 py-3 bg-[#266d67] text-white rounded-md shadow-md hover:bg-white hover:text-[#266d67] transition">Our Work</a>
-            <a href="#support" className="inline-block px-5 py-3 bg-white text-[#266d67] rounded-md shadow-md hover:bg-[#266d67] hover:text-white transition">Contact Us</a>
+            <a href="#ourwork" className="inline-block px-5 py-3 bg-[#266d67] text-white rounded-md shadow-md hover:bg-white hover:text-[#266d67] transition">Our Work</a>
+            <a href="mailto:aaviyantafoundation24@gmail.com" className="inline-block px-5 py-3 bg-white text-[#266d67] rounded-md shadow-md hover:bg-[#266d67] hover:text-white transition">Contact Us</a>
           </div>
         </motion.div>
       </div>

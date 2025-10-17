@@ -12,7 +12,7 @@ function Navbar() {
   // Example paths:
   // / => home
   // /what-we-do => what-we-do root
-  // /what-we-do/sachet-nari => what-we-do + sachet-nari
+  // /education/sachet-nari => what-we-do + sachet-nari
   const segments = pathname.split("/").filter(Boolean); // removes empty
   const main = segments[0] || "home"; // 'what-we-do' or 'home' or 'who-we-are'
   const sub = segments[1] || null; // 'sachet-nari' etc.
@@ -20,7 +20,7 @@ function Navbar() {
   // Friendly labels for children (for breadcrumb display)
   const subLabels = {
     "research": "Research",
-    "community-interventions": "Community Interventions",
+    "educations": "Community Interventions",
     "digital-literacy": "Digital literacy and safety",
     "techleadhers": "TechLeadhers",
     "climate-resilience": "Climate Resilience",
@@ -31,7 +31,7 @@ function Navbar() {
   const activeSubLabel = sub ? (subLabels[sub] || sub.replace(/-/g, " ")) : null;
 
   return (
-    <header className="bg-white shadow-sm sticky top-8 z-40">
+    <header className="bg-white shadow-sm fixed w-full top-8 z-40">
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
         <nav className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
@@ -78,8 +78,8 @@ function Navbar() {
                   <DropdownSection
                     title="Health"
                     items={[
-                      { name: "Research", path: "/what-we-do/research", slug: "research" },
-                      { name: "Community Interventions", path: "/what-we-do/community-interventions", slug: "community-interventions" },
+                      { name: "Research", path: "/health/research", slug: "research" },
+                      { name: "Community Interventions", path: "/health/community-interventions", slug: "educations" },
                     ]}
                     activeSub={activeSubLabel}
                     currentSub={sub}
@@ -99,7 +99,7 @@ function Navbar() {
                     title="Local initiative"
                     items={[
                       { name: "Climate Resilience", path: "/what-we-do/climate-resilience", slug: "climate-resilience" },
-                      { name: "Sachet Nari", path: "/what-we-do/sachet-nari", slug: "sachet-nari" },
+                      { name: "Sachet Nari", path: "/education/sachet-nari", slug: "sachet-nari" },
                     ]}
                     activeSub={activeSubLabel}
                     currentSub={sub}
@@ -151,8 +151,8 @@ function Navbar() {
                   <details>
                     <summary className={`cursor-pointer text-[#266d67] ${sub === "research" ? "font-bold" : ""}`}>Health</summary>
                     <div className="pl-3">
-                      <Link to="/what-we-do/research" className={`block ${sub === "research" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Research</Link>
-                      <Link to="/what-we-do/community-interventions" className={`block ${sub === "community-interventions" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Community Interventions</Link>
+                      <Link to="/health/research" className={`block ${sub === "research" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Research</Link>
+                      <Link to="/health/community-interventions" className={`block ${sub === "educations" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Community Interventions</Link>
                     </div>
                   </details>
 
@@ -160,7 +160,7 @@ function Navbar() {
                     <summary className={`cursor-pointer text-[#266d67] ${sub === "digital-literacy" || sub === "techleadhers" ? "font-bold" : ""}`}>Education</summary>
                     <div className="pl-3">
                       <Link to="/what-we-do/digital-literacy" className={`block ${sub === "digital-literacy" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Digital literacy and safety</Link>
-                      <Link to="/what-we-do/techleadhers" className={`block ${sub === "techleadhers" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>TechLeadhers</Link>
+                      <Link to="/education/techleadhers" className={`block ${sub === "techleadhers" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>TechLeadhers</Link>
                     </div>
                   </details>
 
@@ -168,7 +168,7 @@ function Navbar() {
                     <summary className={`cursor-pointer text-[#266d67] ${sub === "climate-resilience" || sub === "sachet-nari" ? "font-bold" : ""}`}>Local initiative</summary>
                     <div className="pl-3">
                       <Link to="/what-we-do/climate-resilience" className={`block ${sub === "climate-resilience" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Climate Resilience</Link>
-                      <Link to="/what-we-do/sachet-nari" className={`block ${sub === "sachet-nari" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Sachet Nari</Link>
+                      <Link to="/education/sachet-nari" className={`block ${sub === "sachet-nari" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Sachet Nari</Link>
                     </div>
                   </details>
                 </div>

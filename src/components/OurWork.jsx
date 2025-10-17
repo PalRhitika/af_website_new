@@ -8,29 +8,33 @@ function OurWork() {
       desc: "Evidence-driven studies to inform community interventions.",
       icon: <HeartPulse className="w-10 h-10 text-pink-500 mb-4" />,
       color: "from-pink-50 to-pink-100",
+      navigateTo:"/health/research",
     },
     {
       title: "Community Interventions",
       desc: "On-ground programs focusing on maternal and child health.",
       icon: <Users className="w-10 h-10 text-blue-500 mb-4" />,
       color: "from-blue-50 to-blue-100",
+      navigateTo:"/health/community-interventions",
     },
     {
       title: "Digital Literacy",
       desc: "Training youth and women on digital safety and skills.",
       icon: <Laptop className="w-10 h-10 text-green-500 mb-4" />,
       color: "from-green-50 to-green-100",
+      navigateTo:"/health/research",
     },
     {
       title: "Climate Resilience",
       desc: "Local projects to make communities resilient to climate shocks.",
       icon: <Leaf className="w-10 h-10 text-yellow-500 mb-4" />,
       color: "from-yellow-50 to-yellow-100",
+      navigateTo:"/health/research",
     },
   ];
 
   return (
-    <section id="work" className=" bg-gray-50 py-20 px-6">
+    <section id="ourwork" className=" bg-gray-50 py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
@@ -55,7 +59,7 @@ function OurWork() {
                 <h3 className="font-semibold text-xl text-gray-800 mb-2">{c.title}</h3>
                 <p className="text-gray-600 text-sm mb-4">{c.desc}</p>
                 <a
-                  href="#"
+                  href={c.navigateTo}
                   className={`mt-2 inline-block text-[#266d67] font-bold hover:text-green-900`}
                 >
                   Learn more →

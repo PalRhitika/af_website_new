@@ -59,7 +59,7 @@ const TLHTimeline = () => {
             >
               <Icon size={22} />
             </div>
-            <span className="text-xs md:text-sm font-medium">{label}</span>
+            {/* <span className="text-xs md:text-sm font-medium">{label}</span> */}
           </motion.div>
         </ScrollLink>
       ))}
