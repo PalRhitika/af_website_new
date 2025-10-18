@@ -22,14 +22,14 @@ function OurWork() {
       desc: "Training youth and women on digital safety and skills.",
       icon: <Laptop className="w-10 h-10 text-green-500 mb-4" />,
       color: "from-green-50 to-green-100",
-      navigateTo:"/health/research",
+      navigateTo:"/education/digital-literacy",
     },
     {
       title: "Climate Resilience",
       desc: "Local projects to make communities resilient to climate shocks.",
       icon: <Leaf className="w-10 h-10 text-yellow-500 mb-4" />,
       color: "from-yellow-50 to-yellow-100",
-      navigateTo:"/health/research",
+      navigateTo:"/climate-resillience",
     },
   ];
 

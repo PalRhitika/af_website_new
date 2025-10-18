@@ -19,7 +19,7 @@ const SachetNariLayout = () => {
         </div>
 
         {/* TLH Sections */}
-        <main className="space-y-20 md:space-y-32 pt-10 pb-0">
+        <main className="space-y-20 md:space-y-32  pb-0 w-full overflow-x-hidden pt-[90px]">
           <section id="home" className="px-4 md:px-8 mb-3"><SNHome /></section>
           <section id="why" className="px-4 md:px-8 mb-3"><SNWhy /></section>
           <section id="gallery" className="px-4 md:px-8 mb-3"><SNGallery /></section>

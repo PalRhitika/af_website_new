@@ -6,12 +6,12 @@ function Footer() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   const quickLinks = [
-    { name: "Research", path: "/health/research" },
-    { name: "Community Intervention", path: "/health/communityintervention" },
-    { name: "Digital Literacy", path: "/education/digital" },
+    { name: "Health Research", path: "/health/research" },
+    { name: "Community Intervention", path: "/health/community-interventions" },
+    { name: "Digital Literacy And Safety", path: "/education/digital-literacy" },
     { name: "TechLeadhers", path: "/education/techleadhers" },
-    { name: "Our Work", path: "/wefocus" },
-    { name: "Impact Stories", path: "/impactstories" },
+    { name: "Sachet Nari", path: "/education/sachet-nari" },
+    { name: "Impact Stories", path: "/impact-stories" },
   ];
 
   return (

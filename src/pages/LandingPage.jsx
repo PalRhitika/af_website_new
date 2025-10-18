@@ -11,10 +11,10 @@ import CopyrightBar from '../components/CopyrightBar';
 import TopSocialHeader from '../components/TopSocialHeader';
 function LandingPage() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
+    <div className="min-h-screen bg-gray-50 text-gray-900 w-full overflow-x-hidden">
       <TopSocialHeader />
       <Navbar />
-      <main className="overflow-x-hidden">
+      <main className="overflow-x-hidden w-full">
         <HeroCarousel />
         <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
           <MissionVision />

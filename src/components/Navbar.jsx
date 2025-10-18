@@ -17,6 +17,7 @@ function Navbar() {
   const main = segments[0] || "home"; // 'what-we-do' or 'home' or 'who-we-are'
   const sub = segments[1] || null; // 'sachet-nari' etc.
 
+
   // Friendly labels for children (for breadcrumb display)
   const subLabels = {
     "research": "Research",
@@ -88,22 +89,33 @@ function Navbar() {
                   <DropdownSection
                     title="Education"
                     items={[
-                      { name: "Digital literacy and safety", path: "/what-we-do/digital-literacy", slug: "digital-literacy" },
+                      { name: "Digital literacy and safety", path: "/education/digital-literacy", slug: "digital-literacy" },
                       { name: "TechLeadhers", path: "/education/techleadhers", slug: "techleadhers" },
-                    ]}
-                    activeSub={activeSubLabel}
-                    currentSub={sub}
-                  />
-
-                  <DropdownSection
-                    title="Local initiative"
-                    items={[
-                      { name: "Climate Resilience", path: "/what-we-do/climate-resilience", slug: "climate-resilience" },
                       { name: "Sachet Nari", path: "/education/sachet-nari", slug: "sachet-nari" },
                     ]}
                     activeSub={activeSubLabel}
                     currentSub={sub}
                   />
+
+                 <div>
+                  <ul className=" text-sm space-y-1">
+                    <li
+                      className={`cursor-pointer ${
+                        main === "what-we-do" && sub === "climate-resilience"
+                          ? "font-extrabold text-[#266d67]"
+                          : "text-[#266d67]"
+                      }`}
+                    >
+                      <Link
+                        to="/climate-resilience"
+                        className="block hover:text-[#266d67] transition-colors font-bold "
+                      >
+                        Climate Resilience
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
                 </div>
               </div>
             </div>
@@ -159,17 +171,16 @@ function Navbar() {
                   <details>
                     <summary className={`cursor-pointer text-[#266d67] ${sub === "digital-literacy" || sub === "techleadhers" ? "font-bold" : ""}`}>Education</summary>
                     <div className="pl-3">
-                      <Link to="/what-we-do/digital-literacy" className={`block ${sub === "digital-literacy" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Digital literacy and safety</Link>
+                      <Link to="/education/digital-literacy" className={`block ${sub === "digital-literacy" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Digital literacy and safety</Link>
                       <Link to="/education/techleadhers" className={`block ${sub === "techleadhers" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>TechLeadhers</Link>
-                    </div>
-                  </details>
-
-                  <details>
-                    <summary className={`cursor-pointer text-[#266d67] ${sub === "climate-resilience" || sub === "sachet-nari" ? "font-bold" : ""}`}>Local initiative</summary>
-                    <div className="pl-3">
-                      <Link to="/what-we-do/climate-resilience" className={`block ${sub === "climate-resilience" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Climate Resilience</Link>
                       <Link to="/education/sachet-nari" className={`block ${sub === "sachet-nari" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Sachet Nari</Link>
                     </div>
+                  </details>
+                      <Link to="/climate-resilience" className={`block ${main === "climate-resilience" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Climate Resilience</Link>
+
+                                <details>
+
+
                   </details>
                 </div>
               </details>

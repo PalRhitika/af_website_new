@@ -6,7 +6,11 @@ import TLHHome from './pages/tlh/TLHHome';
 import SachetNariLayout from './pages/sachet/SachetNariLayout';
 import SNHome from './pages/sachet/SNHome';
 import HealthResearch from './pages/ourwork/HealthResearch';
+import ClimateResillience from './pages/ourwork/ClimateResillience';
+import ImpactStories from './pages/impactstories/Impactstories';
 import CommunityInterventions from './pages/ourwork/CommunityInterventions';
+import WhoWeAre from './pages/WhoWeAre';
+import DigitalLiteracy from './pages/ourwork/DigitalLiteracy';
 function App() {
   return (
     <Router>
@@ -14,7 +18,15 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="health/research" element={<HealthResearch />} />
         <Route path="health/community-interventions" element={<CommunityInterventions />} />
-        <Route path="education/techleadhers" element={<TechLeadHersLayout />}>
+        <Route path="impact-stories" element={<ImpactStories />} />
+        <Route path="who-we-are" element={<WhoWeAre />} />
+        <Route path="education/digital-literacy" element={<DigitalLiteracy />} />
+
+
+
+        <Route path="climate-resilience" element={<ClimateResillience />} />
+        <Route path="education/techleadhers" element={<TechLeadHersLayout />} >
+
           <Route index element={<TLHHome />} />
           {/* <Route path="why" element={<TLHWhy />} />
           <Route path="cohort-i" element={<TLHCohortI />} />

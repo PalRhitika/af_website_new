@@ -47,7 +47,7 @@ function HeroCarousel() {
 
           <div className="mt-6 flex gap-4">
             <a href="#ourwork" className="inline-block px-5 py-3 bg-[#266d67] text-white rounded-md shadow-md hover:bg-white hover:text-[#266d67] transition">Our Work</a>
-            <a href="mailto:aaviyantafoundation24@gmail.com" className="inline-block px-5 py-3 bg-white text-[#266d67] rounded-md shadow-md hover:bg-[#266d67] hover:text-white transition">Contact Us</a>
+            <a href="/impact-stories" className="inline-block px-5 py-3 bg-white text-[#266d67] rounded-md shadow-md hover:bg-[#266d67] hover:text-white transition">Impact Stories</a>
           </div>
         </motion.div>
       </div>

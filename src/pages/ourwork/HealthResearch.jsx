@@ -303,8 +303,8 @@ const HealthResearch = () => {
   )}
 </Modal>
 
-      <Footer/>
     </div>
+      <Footer/>
       </>
   );
 };

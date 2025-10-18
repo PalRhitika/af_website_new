@@ -32,7 +32,7 @@ const TLHTimeline = () => {
   }, []);
 
   return (
-    <div className="flex md:justify-center space-x-4 md:space-x-6 overflow-x-auto px-4 py-2 scrollbar-hide">
+    <div className="flex justify-center space-x-4 md:space-x-6 overflow-x-auto px-4 py-2 scrollbar-hide">
       {timelineItems.map(({ id, label, icon: Icon }) => (
         <ScrollLink
           key={id}

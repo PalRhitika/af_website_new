@@ -271,8 +271,8 @@ const CommunityInterventions = () => {
   )}
 </Modal>
 
-      <Footer/>
     </div>
+      <Footer/>
       </>
   );
 };
