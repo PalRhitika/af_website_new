@@ -4,12 +4,17 @@ import { AnimatePresence, motion} from "motion/react"
 
 const HERO_IMAGES = [
   '/src/assets/img/tc3.jpg',
+  '/src/assets/img/coverflow2.jpg',
+  '/src/assets/img/website2.jpg',
   '/src/assets/img/coverflow3.jpg',
   '/src/assets/img/earthquake.jpg',
+  '/src/assets/img/website6.JPG',
   '/src/assets/img/tc2.jpg',
   '/src/assets/img/homeslid2.jpeg',
   '/src/assets/img/tlh04slid.jpg',
+  '/src/assets/img/website7.jpg',
   '/src/assets/img/coverflow2.jpg',
+  '/src/assets/img/website3.jpg',
 
 ];
 
@@ -47,7 +52,7 @@ function HeroCarousel() {
 
           <div className="mt-6 flex gap-4">
             <a href="#ourwork" className="inline-block px-5 py-3 bg-[#266d67] text-white rounded-md shadow-md hover:bg-white hover:text-[#266d67] transition">Our Work</a>
-            <a href="/impact-stories" className="inline-block px-5 py-3 bg-white text-[#266d67] rounded-md shadow-md hover:bg-[#266d67] hover:text-white transition">Impact Stories</a>
+            <a href="/impact-stories" className="inline-block px-5 py-3 bg-white text-[#266d67] rounded-md shadow-md hover:bg-[#c0d3d1] hover:text-white transition">Impact Stories</a>
           </div>
         </motion.div>
       </div>

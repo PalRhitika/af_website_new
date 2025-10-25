@@ -72,7 +72,7 @@ const SachetNari = () => {
 
           <Link
             to="/education/sachetnari"
-            className="inline-block px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-xl shadow-md transition-transform transform hover:scale-105"
+            className="inline-block px-6 py-3 bg-pink-500 hover:bg-white text-white rounded-xl shadow-md transition-transform transform hover:scale-105"
           >
             Know More
           </Link>

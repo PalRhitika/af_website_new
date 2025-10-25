@@ -11,12 +11,15 @@ import ImpactStories from './pages/impactstories/Impactstories';
 import CommunityInterventions from './pages/ourwork/CommunityInterventions';
 import WhoWeAre from './pages/WhoWeAre';
 import DigitalLiteracy from './pages/ourwork/DigitalLiteracy';
+import CommonPage from './pages/CommonPage';
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="health/research" element={<HealthResearch />} />
+        <Route path="health" element={<CommonPage />} />
+        <Route path="education" element={<CommonPage />} />
         <Route path="health/community-interventions" element={<CommunityInterventions />} />
         <Route path="impact-stories" element={<ImpactStories />} />
         <Route path="who-we-are" element={<WhoWeAre />} />

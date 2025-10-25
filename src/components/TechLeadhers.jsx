@@ -53,7 +53,7 @@ function TechLeadhers() {
 
             <Link
               to="/education/techleadhers"
-              className="inline-block bg-pink-600 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-pink-700 transition"
+              className="inline-block bg-pink-600 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-white transition"
             >
               Learn More
             </Link>
