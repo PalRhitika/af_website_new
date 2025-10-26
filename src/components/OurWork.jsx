@@ -59,7 +59,7 @@ function OurWork() {
                 <h3 className="font-semibold text-xl text-gray-800 mb-2">{c.title}</h3>
                 <p className="text-gray-600 text-sm mb-4">{c.desc}</p>
                 <Link
-                  href={c.navigateTo}
+                  to={c.navigateTo}
                   className={`mt-2 inline-block text-[#266d67] font-bold hover:text-green-900`}
                 >
                   Learn more →
