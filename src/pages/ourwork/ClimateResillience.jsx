@@ -11,7 +11,7 @@ const researchData = [
     id: 1,
     title: "Uddhar",
     modal_title :" Revolutionizing Flood Management: A Disaster Alert System for Enhanced Public Safety",
-    image: "../src/assets/img/uddharhomepage.jpeg",
+    image: "/assets/img/uddharhomepage.jpeg",
     shortDescription:
       " Revolutionizing Flood Management: A Disaster Alert System for Enhanced Public Safety.",
     fullDescription: `
@@ -34,7 +34,7 @@ const researchData = [
     id: 2,
     title: "SwachGyan",
     modal_title: "Learning Through Play: Climate Awareness for Young Minds",
-    image: "../src/assets/img/climate.jpg",
+    image: "/assets/img/climate.jpg",
     shortDescription:
       "Learning Through Play: Climate Awareness for Young Minds",
     fullDescription: `
@@ -69,7 +69,7 @@ const researchData = [
     id: 3,
     title: "Earthquake Simulation",
     modal_title: "Earthquake Preparedness Simulation: Strengthening Safety and Community Resilience",
-    image: "../src/assets/img/earthquake.jpg",
+    image: "/assets/img/earthquake.jpg",
     shortDescription:
       " The earthquake simulation is a periodic drill aimed at preparing communities, especially in high-risk areas of Kathmandu Valley, for potential seismic events. It educates residents on key actions during an earthquake, such as staying calm, protecting themselves, and managing additional risks like fires. The simulation will be held regularly to ensure continuous awareness and readiness, including evacuation and family reunification plans.",
     fullDescription: `

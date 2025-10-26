@@ -11,10 +11,10 @@ const researchData = [
     id: 1,
     title: "General Health",
     modal_title :"General Health Screening: How Did This Come to Our Attention?",
-    image: "../src/assets/img/story3.png",
-    image2:"../src/assets/img/mm.jpg",
-    image3:"../src/assets/img/health2.jpg",
-    image4:"../src/assets/img/health4.jpeg",
+    image: "/assets/img/story3.png",
+    image2:"/assets/img/mm.jpg",
+    image3:"/assets/img/health2.jpg",
+    image4:"/assets/img/health4.jpeg",
     shortDescription:
       "Aaviyanta Foundation’s general health screening addresses the lack of quality healthcare in elderly homes across Nepal, ensuring timely access to care and support.",
     fullDescription: `
@@ -81,10 +81,10 @@ const researchData = [
     id: 2,
     title: "Dental Screening",
     modal_title: " Dental Screening: How Did This Come to Our Attention?",
-    image: "../src/assets/img/dentalscreening.jpg",
-    image2:"../src/assets/img/dental2.jpg",
-    image3:"../src/assets/img/dentail3.jpg",
-    image4:"../src/assets/img/dental4.jpg",
+    image: "/assets/img/dentalscreening.jpg",
+    image2:"/assets/img/dental2.jpg",
+    image3:"/assets/img/dentail3.jpg",
+    image4:"/assets/img/dental4.jpg",
     shortDescription:
       "Dental health shapes overall wellbeing. Our dental screening initiative reaches communities where access to oral care is limited.",
     fullDescription: `

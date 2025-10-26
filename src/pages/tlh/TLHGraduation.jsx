@@ -7,7 +7,7 @@ const TLHGraduation = () => {
       {/* Top section - Welcome */}
       <div className="flex flex-col items-center text-center space-y-6 mb-16">
         <motion.img
-          src="../src/assets/img/tlhlogo.png"
+          src="/assets/img/tlhlogo.png"
           alt="TechLeadHers Logo"
           className="w-36 md:w-40 h-auto"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -46,7 +46,7 @@ const TLHGraduation = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="../src/assets/img/graduation-image.JPG"
+            src="/assets/img/graduation-image.JPG"
             alt="Graduation Day"
             className="rounded-2xl shadow-lg w-full max-w-md object-cover"
           />
@@ -58,17 +58,17 @@ const TLHGraduation = () => {
         {
           title: "Winner: Tech LeadHers Fellowship – First Cohort",
           text: `Congratulations to Team Eco-Elite — Aditika Singh, Shreeya Tamang, and Trisha Chaudhary — for winning the Tech LeadHers Fellowship’s inaugural cohort! Their project, SwachGyaan, focused on waste management by addressing one of its root causes: lack of awareness. Believing that change begins with the younger generation, they designed an educational platform featuring interactive games and quizzes to teach children about responsible waste practices in a fun and engaging way. We’re proud of your vision and commitment to creating a cleaner, more conscious future.`,
-          img: "../src/assets/img/ecoelite.jpeg",
+          img: "/assets/img/ecoelite.jpeg",
         },
         {
           title: "Hands-On Community Service Competition Winner: Tech LeadHers Fellowship – Second Cohort",
           text: `Congratulations to Team Aarambha — Apsara Aryal, Dikshya Khatri, and Sumina Awa — for winning the Hands-On Community Service Competition of the Second Cohort! Their project, Swari Gyaan, tackled the issue of traffic safety awareness among teenagers, targeting students in Grades 9 and 10. Through interactive sessions at Kanya Mandir School, they educated students on traffic rules, safe commuting practices, and responsible road behavior. Team Aarambha was awarded a seed grant of NPR 35,000 to further develop and scale their project.`,
-          img: "../src/assets/img/winner-arambha.jpg",
+          img: "/assets/img/winner-arambha.jpg",
         },
         {
           title: "Final Project Competition Winner: Tech LeadHers Fellowship – Second Cohort",
           text: `Congratulations to Team Uddhar — Pragati Shrestha, Prenisha Upreti, and Saishna Budhathoki — for winning the Final Project Competition of the Second Cohort! Their project, Uddhar, is a mobile application designed to support communities during flood disasters. Using geofencing technology, the app sends early alerts in pre-disaster conditions and enables users to request rescue support post-disaster, enhancing preparedness and emergency response. Team Uddhar was awarded a seed grant of NPR 50,000 to advance their work.`,
-          img: "../src/assets/img/winner-uddhar.jpg",
+          img: "/assets/img/winner-uddhar.jpg",
         },
       ].map((winner, index) => (
         <div

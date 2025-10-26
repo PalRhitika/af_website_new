@@ -7,7 +7,7 @@ const TLHSessions = () => {
       {/* Top section - Welcome */}
       <div className="flex flex-col items-center justify-center text-center space-y-6 mb-16">
         <motion.img
-          src="../src/assets/img/tlhlogo.png"
+          src="/assets/img/tlhlogo.png"
           alt="TechLeadHers Logo"
           className="w-40 h-auto"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -53,7 +53,7 @@ const TLHSessions = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="../src/assets/img/bootcamp.jpg"
+            src="/assets/img/bootcamp.jpg"
             alt="Bootcamp"
             className="rounded-2xl shadow-md w-full max-w-md object-cover"
           />
@@ -69,7 +69,7 @@ const TLHSessions = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="../src/assets/img/bi-weekly.jpeg"
+            src="assets/img/bi-weekly.jpeg"
             alt="Bi-Weekly Sessions"
             className="rounded-2xl shadow-md w-full max-w-md object-cover"
           />

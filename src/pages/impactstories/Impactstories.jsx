@@ -11,7 +11,7 @@ const researchData = [
     id: 1,
     title: "CAN Info Tech",
     modal_title :"CAN InfoTech Experience",
-    image: "../src/assets/img/story2.png",
+    image: "/assets/img/story2.png",
     shortDescription:
       `During the CAN Info Tech Expo, Aaviyanta Foundation set up a free health and dental screening stall to promote well-being among IT professionals. Over 300 people participated daily, eager to learn about their health.
 “It was inspiring to see their enthusiasm,” share Jaya and Prashant, young medical officers who led the program. “The experience taught us how important it is to bring healthcare to every corner of our community.”`,
@@ -66,7 +66,7 @@ const researchData = [
     id: 2,
     title: "Volunteer Pharmacist",
     modal_title: "Asmita Sharma's Contribution to Social Service",
-    image: "../src/assets/img/story3.png",
+    image: "/assets/img/story3.png",
     shortDescription:
      `Meet Asmita Sharma, a Quality Control Pharmacist who joined our free health program at Manav Sewa Ashram. Surrounded by vulnerable and homeless individuals, she found a sense of peace and fulfillment in serving those who needed care the most.
 “Seeing their smiles after the checkup was pure joy,” she says. “It reminded me that even small acts of service can bring immense happiness.”`,
@@ -110,7 +110,7 @@ const researchData = [
     id: 3,
     title: "ICT Skill",
     modal_title: "My Journey in ICT Training",
-    image: "../src/assets/img/story1.png",
+    image: "/assets/img/story1.png",
     shortDescription:
       "Meet Jayanti Ranjit, a 54-year-old homemaker who joined our ICT training with the hope of simply learning how to open a laptop. Encouraged by her grandchildren, she took a step into the digital world — and ended up finding confidence, new friends, and a lifelong love for learning. 'It was just five days' she says, 'but an experience of a lifetime.'",
     fullDescription: `
@@ -154,7 +154,7 @@ const researchData = [
     id: 4,
     title: "TechLeadHers Fellows",
     modal_title: "Fellow Participant of TechLeadHers First Cohort",
-    image: "../src/assets/img/jyoti.jpg",
+    image: "/assets/img/jyoti.jpg",
     shortDescription:
       " Look at what our TechLeadHers fellow, Jyoti Joshi, has to say! Through the six-month TechLeadHers program by Aaviyanta Foundation, Jyoti discovered not just her technical strengths but also her confidence as a leader. From an intensive bootcamp to hands-on projects and mentorship, the journey helped her grow both personally and professionally. Jyoti describes it as a truly transformative experience that empowered her to embrace collaboration, leadership, and the power of community in tech",
     fullDescription: `

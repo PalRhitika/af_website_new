@@ -74,7 +74,7 @@ const TLHWhy = () => {
           viewport={{ once: true }}
         >
           <img
-            src="../src/assets/img/community_engagement.jpg"
+            src="/assets/img/community_engagement.jpg"
             alt="Community Engagement"
             className="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500"
           />
@@ -144,7 +144,7 @@ const TLHWhy = () => {
           viewport={{ once: true }}
         >
           <img
-            src="../src/assets/img/leadership.jpg"
+            src="/assets/img/leadership.jpg"
             alt="Leadership"
             className="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500"
           />
@@ -161,7 +161,7 @@ const TLHWhy = () => {
           viewport={{ once: true }}
         >
           <img
-            src="../src/assets/img/final_projects.jpg"
+            src="/assets/img/final_projects.jpg"
             alt="Final Projects"
             className="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500"
           />

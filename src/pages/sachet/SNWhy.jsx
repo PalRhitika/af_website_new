@@ -34,7 +34,7 @@ const SNWhy = () => {
         >
           <div className="md:w-1/2 flex justify-center">
             <img
-              src="../src/assets/img/sachetnari/kmc5.png"
+              src="/assets/img/sachetnari/kmc5.png"
               alt="Sachet Nari Outreach"
               className="rounded-2xl shadow-md hover:scale-105 transition-transform duration-500"
             />
@@ -75,7 +75,7 @@ const SNWhy = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <img
-              src="../src/assets/img/sachetnari/kmc1.jpg"
+              src="/assets/img/sachetnari/kmc1.jpg"
               alt="Women Empowerment"
               className="rounded-2xl shadow-md hover:scale-105 transition-transform duration-500"
             />

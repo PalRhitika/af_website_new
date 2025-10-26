@@ -34,7 +34,7 @@ const TLHCohortI = () => {
         className="text-center mb-6"
       >
         <img
-          src="../src/assets/img/tlhlogo.png"
+          src="/assets/img/tlhlogo.png"
           alt="TechLeadHers"
           className="mx-auto w-28 md:w-36 mb-6"
         />
@@ -58,7 +58,7 @@ const TLHCohortI = () => {
         className="flex justify-center mb-6"
       >
         <img
-          src="../src/assets/img/graduation.jpg"
+          src="/assets/img/graduation.jpg"
           alt="Graduation"
           className="rounded-2xl shadow-lg w-full md:w-3/4 lg:w-1/2 hover:scale-105 transition-transform duration-500"
         />
@@ -95,7 +95,7 @@ const TLHCohortI = () => {
         </div>
         <div className="flex-1">
           <img
-            src="../src/assets/img/mitini.jpeg"
+            src="/assets/img/mitini.jpeg"
             alt="Team Mero Mitini"
             className="rounded-2xl shadow-md hover:scale-105 transition-transform duration-500"
           />
@@ -112,7 +112,7 @@ const TLHCohortI = () => {
       >
         <div className="flex-1">
           <img
-            src="../src/assets/img/ecoelite.jpeg"
+            src="/assets/img/ecoelite.jpeg"
             alt="Team Eco Elite"
             className="rounded-2xl shadow-md hover:scale-105 transition-transform duration-500"
           />
@@ -155,7 +155,7 @@ const TLHCohortI = () => {
               </div>
               <div className="flex-1">
                 <img
-                  src="../src/assets/img/swostik.jpeg"
+                  src="/assets/img/swostik.jpeg"
                   alt="Team Swostik"
                   className="rounded-2xl  shadow-md hover:scale-105 transition-transform duration-500"
                 />
@@ -172,7 +172,7 @@ const TLHCohortI = () => {
             >
               <div className="flex-1">
                 <img
-                  src="../src/assets/img/sarathi.jpeg"
+                  src="/assets/img/sarathi.jpeg"
                   alt="Team Aaviya Sarathi"
                   className="rounded-2xl  shadow-md hover:scale-105 transition-transform duration-500"
                 />

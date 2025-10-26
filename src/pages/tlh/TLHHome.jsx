@@ -122,17 +122,17 @@ const TLHHome = () => {
   ];
 
   const images = [
-    "../../src/assets/img/graduation.jpg",
-    "../../src/assets/img/thl1slid.jpg",
-    "../../src/assets/img/secondslide1.jpg",
-    "../../src/assets/img/secondslide2.jpg",
-    "../../src/assets/img/secondslide3.jpg",
-    "../../src/assets/img/tlh0slide.jpg",
-    "../../src/assets/img/secondslide4.jpg",
-    "../../src/assets/img/secondslide5.jpg",
-    "../../src/assets/img/tlh3slid.jpg",
-    "../../src/assets/img/tlh20slid.jpg",
-    "../../src/assets/img/tlh40slid.jpg",
+    "/assets/img/graduation.jpg",
+    "/assets/img/thl1slid.jpg",
+    "/assets/img/secondslide1.jpg",
+    "/assets/img/secondslide2.jpg",
+    "/assets/img/secondslide3.jpg",
+    "/assets/img/tlh0slide.jpg",
+    "/assets/img/secondslide4.jpg",
+    "/assets/img/secondslide5.jpg",
+    "/assets/img/tlh3slid.jpg",
+    "/assets/img/tlh20slid.jpg",
+    "/assets/img/tlh40slid.jpg",
   ];
 
   return (
@@ -145,7 +145,7 @@ const TLHHome = () => {
         transition={{ duration: 0.8 }}
       >
         <motion.img
-          src="../../src/assets/img/tlhlogo.png"
+          src="/assets/img/tlhlogo.png"
           alt="TechLeadHers Logo"
           className="mx-auto w-40 md:w-56 drop-shadow-lg"
           whileHover={{ scale: 1.05 }}

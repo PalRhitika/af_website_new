@@ -11,10 +11,10 @@ const researchData = [
     id: 1,
     title: "Covid Relief Fund",
     modal_title :"Covid Relief Fund: How Did This Come to Our Attention?",
-    image: "../src/assets/img/covid.jpg",
-    image2:"../src/assets/img/fundr1.jpg",
-    image3:"../src/assets/img/fr2.jpg",
-    image4:"../src/assets/img/fr3.jpeg",
+    image: "/assets/img/covid.jpg",
+    image2:"/assets/img/fundr1.jpg",
+    image3:"/assets/img/fr2.jpg",
+    image4:"/assets/img/fr3.jpeg",
     shortDescription:
       "Aaviyanta Foundation launched the COVID Relief Fund to support the community by providing medical aid, food supplies, and hospital assistance. Through generous donations, NPR 2 Lakh was raised and donated to Chhetrapati Hospital to help expand its capacity and serve patients in need.",
     fullDescription: `
@@ -61,10 +61,10 @@ const researchData = [
     id: 2,
     title: "Medicine bank",
     modal_title: "Medicine Bank: How Did This Come to Our Attention?",
-    image: "../src/assets/img/medicinebank.jpg",
-    image2:"../src/assets/img/mb2.jpg",
-    image3:"../src/assets/img/mb3.jpg",
-    image4:"../src/assets/img/mb4.jpg",
+    image: "/assets/img/medicinebank.jpg",
+    image2:"/assets/img/mb2.jpg",
+    image3:"/assets/img/mb3.jpg",
+    image4:"/assets/img/mb4.jpg",
     shortDescription:
       "Aaviyanta Foundation distributed essential medicines to residents of Manav Sewa Ashram (Bhaktapur) and counseled them on proper usage. We also supported Chhetrapati Hospital by donating medicines through our network of pharmaceutical partners.",
     fullDescription: `
@@ -87,10 +87,10 @@ const researchData = [
     id: 3,
     title: "Food Bank",
     modal_title: " Food Bank: How Did This Come to Our Attention?",
-    image: "../src/assets/img/foodbank.jpg",
-    image2:"../src/assets/img/fb2.jpg",
-    image3:"../src/assets/img/fb3.jpg",
-    image4:"../src/assets/img/fb4.jpg",
+    image: "/assets/img/foodbank.jpg",
+    image2:"/assets/img/fb2.jpg",
+    image3:"/assets/img/fb3.jpg",
+    image4:"/assets/img/fb4.jpg",
     shortDescription:
       "During the COVID-19 lockdown, Aaviyanta Foundation launched a Food Package Distribution Program to support families who lost their income. In collaboration with the Lions Club of Kathmandu Social Friends, essential grocery and hygiene kits were distributed to 21 daily-wage families in Bansbari, providing a month’s relief and hope amid the crisis.",
     fullDescription: `

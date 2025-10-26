@@ -11,7 +11,7 @@ const researchData = [
     id: 1,
     title: "Digital Literacy Project",
     modal_title :"Digital Literacy Project: How Did This Come to Our Attention?",
-    image: "../src/assets/img/digitalliteracy.png",
+    image: "/assets/img/digitalliteracy.png",
     shortDescription:
       "Aaviyanta Foundation’s general health screening addresses the lack of quality healthcare in elderly homes across Nepal, ensuring timely access to care and support.",
     fullDescription: `
@@ -41,7 +41,7 @@ const researchData = [
     id: 2,
     title: "Digital Safety Project",
     modal_title: "Digital Safety Project: How Did This Come to Our Attention?",
-    image: "../src/assets/img/dentalscreening.jpg",
+    image: "/assets/img/dentalscreening.jpg",
     shortDescription:
       "Dental health shapes overall wellbeing. Our dental screening initiative reaches communities where access to oral care is limited.",
     fullDescription: `

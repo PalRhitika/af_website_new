@@ -25,19 +25,19 @@ function WeFocus() {
                        {[
                          {
                            title: "Health",
-                           img: "../src/assets/img/story3.png",
+                           img: "/assets/img/story3.png",
                            link: "/health",
                            text: `Health is a sensitive and essential aspect of well-being. We aim to assist underprivileged communities by conducting Dental Hygiene and General Health Screening programs, community awareness events, and promoting hygiene education.`,
                          },
                          {
                            title: "Education",
-                           img: "../src/assets/img/tc1.jpg",
+                           img: "/assets/img/tc1.jpg",
                            link: "/education",
                            text: `We conduct awareness programs encouraging education for all, with special focus on women and gender-diverse communities. From literacy courses to skill-based training, we promote empowerment through learning.`,
                          },
                          {
                            title: "Climate Resilience",
-                           img: "../src/assets/img/climate1.jpg",
+                           img: "/assets/img/climate1.jpg",
                            link: "/climate-resilience",
                            text: `We lead impactful initiatives educating youth and adults on sustainability, disaster preparedness, and resilience planning — empowering over 1500 individuals across Kathmandu and Lalitpur.`,
                          },

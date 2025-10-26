@@ -17,7 +17,7 @@ const commonData = {
       {
         id: 1,
         title: "Health Research",
-        image: "../src/assets/img/research1.png",
+        image: "/assets/img/research1.png",
         link: "/health/research",
         shortDescription:
           "Aaviyanta Foundation’s general health screening addresses the lack of quality healthcare in elderly homes across Nepal, ensuring timely access to care and support.",
@@ -26,7 +26,7 @@ const commonData = {
       {
         id: 2,
         title: "Community Interventions",
-        image: "../src/assets/img/story5.png",
+        image: "/assets/img/story5.png",
         link: "/health/community-interventions",
         shortDescription:
           "Dental health shapes overall wellbeing. Our dental screening initiative reaches communities where access to oral care is limited.",
@@ -40,7 +40,7 @@ const commonData = {
       {
         id: 1,
         title: "Digital Literacy and Safety",
-        image: "../src/assets/img/digitalliteracy1.png",
+        image: "/assets/img/digitalliteracy1.png",
         link:"/education/digital-literacy",
         shortDescription:
           "Building digital safety awareness across schools and communities to promote responsible online behavior.",
@@ -49,7 +49,7 @@ const commonData = {
         id: 2,
         title: "Tech Leadhers Flagship Program",
         link:"/education/techleadhers",
-        image: "../src/assets/img/biweekly.png",
+        image: "/assets/img/biweekly.png",
         shortDescription:
           "An initiative to bridge the gender gap in technology by training and mentoring young women.",
       },
@@ -57,7 +57,7 @@ const commonData = {
         id: 3,
         title: "Sachet Nari",
         link:'/education/sachet-nari',
-        image: "../src/assets/img/sachetnari/Bootcamp/5.jpg",
+        image: "/assets/img/sachetnari/Bootcamp/5.jpg",
         shortDescription:
           "Sachet Nari is a campaign promoting gender awareness, leadership, and equality through storytelling and dialogue.",
       },

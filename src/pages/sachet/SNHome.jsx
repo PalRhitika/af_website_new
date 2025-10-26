@@ -15,26 +15,26 @@ const partnerLogos = [
 ];
 
 const bootcampImages = [
-  "../../src/assets/img/sachetnari/Bootcamp/3.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/4.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/7.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/6.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/8.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/5.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/9.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/10.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/11.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/1.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/12.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/2.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/13.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/14.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/15.jpeg",
-  "../../src/assets/img/sachetnari/Bootcamp/20.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/16.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/17.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/18.jpg",
-  "../../src/assets/img/sachetnari/Bootcamp/19.jpg",
+  "/assets/img/sachetnari/Bootcamp/3.jpg",
+  "/assets/img/sachetnari/Bootcamp/4.jpg",
+  "/assets/img/sachetnari/Bootcamp/7.jpeg",
+  "/assets/img/sachetnari/Bootcamp/6.jpg",
+  "/assets/img/sachetnari/Bootcamp/8.jpeg",
+  "/assets/img/sachetnari/Bootcamp/5.jpg",
+  "/assets/img/sachetnari/Bootcamp/9.jpeg",
+  "/assets/img/sachetnari/Bootcamp/10.jpeg",
+  "/assets/img/sachetnari/Bootcamp/11.jpeg",
+  "/assets/img/sachetnari/Bootcamp/1.jpg",
+  "/assets/img/sachetnari/Bootcamp/12.jpeg",
+  "/assets/img/sachetnari/Bootcamp/2.jpg",
+  "/assets/img/sachetnari/Bootcamp/13.jpeg",
+  "/assets/img/sachetnari/Bootcamp/14.jpeg",
+  "/assets/img/sachetnari/Bootcamp/15.jpeg",
+  "/assets/img/sachetnari/Bootcamp/20.jpg",
+  "/assets/img/sachetnari/Bootcamp/16.jpg",
+  "/assets/img/sachetnari/Bootcamp/17.jpg",
+  "/assets/img/sachetnari/Bootcamp/18.jpg",
+  "/assets/img/sachetnari/Bootcamp/19.jpg",
 ];
 
 const SNHome = () => {
@@ -129,7 +129,7 @@ const SNHome = () => {
           {partnerLogos.map((logo, idx) => (
             <motion.img
               key={idx}
-              src={`../src/assets/img/sachetnari/${logo}`}
+              src={`/assets/img/sachetnari/${logo}`}
               alt={logo}
               className="w-28 h-auto object-contain mx-auto"
               whileHover={{ scale: 1.1 }}

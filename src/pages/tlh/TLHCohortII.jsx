@@ -17,7 +17,7 @@ const TLHCohortII = () => {
       >
         <div className="flex justify-center mb-6">
           <img
-            src="../src/assets/img/tlhlogo.png"
+            src="/assets/img/tlhlogo.png"
             alt="TechLeadHers"
             className="w-32 md:w-40"
           />
@@ -52,7 +52,7 @@ const TLHCohortII = () => {
           whileHover={{ scale: 1.05 }}
         >
           <img
-            src="../src/assets/img/second_cohort_pic.jpg"
+            src="/assets/img/second_cohort_pic.jpg"
             alt="Second Cohort"
             className="rounded-3xl shadow-lg w-full md:w-4/5"
           />
@@ -76,7 +76,7 @@ const TLHCohortII = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="../src/assets/img/aarambha.jpg"
+            src="/assets/img/aarambha.jpg"
             alt="Team Aarambha"
             className="rounded-2xl shadow-md w-full md:w-1/2"
           />
@@ -114,7 +114,7 @@ const TLHCohortII = () => {
             </p>
           </div>
           <img
-            src="../src/assets/img/kalayatra.jpg"
+            src="/assets/img/kalayatra.jpg"
             alt="Team Kala Yatra"
             className="rounded-2xl shadow-md w-full md:w-1/2"
           />
@@ -131,7 +131,7 @@ const TLHCohortII = () => {
               transition={{ duration: 0.6 }}
             >
               <img
-                src="../src/assets/img/sikshara.jpg"
+                src="/assets/img/sikshara.jpg"
                 alt="Team Sikshara"
                 className="rounded-2xl shadow-md w-full md:w-1/2"
               />
@@ -169,7 +169,7 @@ const TLHCohortII = () => {
                 </p>
               </div>
               <img
-                src="../src/assets/img/uddhar.jpg"
+                src="/assets/img/uddhar.jpg"
                 alt="Team Uddhar"
                 className="rounded-2xl shadow-md w-full md:w-1/2"
               />

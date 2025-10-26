@@ -84,7 +84,7 @@ function LandingPage() {
         </button>
           {/* Flyer Image */}
           <img
-            src="../src/assets/img/tlhflyer.jpg"
+            src="/assets/img/tlhflyer.jpg"
             alt="TechLeadhers Flyer"
             className="w-full object-cover h-full"
           />
