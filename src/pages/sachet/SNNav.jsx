@@ -29,7 +29,7 @@ const SNNav = () => {
   }, []);
 
   return (
-    <div className="flex justify-center space-x-4 md:space-x-6 overflow-x-auto px-4 py-2 scrollbar-hide">
+    <div className="flex justify-center space-x-4 md:space-x-6 overflow-x-auto px-4 py-1 md:py-2 scrollbar-hide">
       {timelineItems.map(({ id, label, icon: Icon }) => (
         <ScrollLink
           key={id}
@@ -48,7 +48,7 @@ const SNNav = () => {
           >
             <div
               title={label}
-              className={`w-12 h-12 flex items-center justify-center rounded-full shadow-md mb-1 transition-all ${
+              className={` w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full shadow-md md:mb-1 transition-all ${
                 activeSection === id
                   ? "bg-pink-200 ring-4 ring-pink-300"
                   : "bg-[#ffecf6]"

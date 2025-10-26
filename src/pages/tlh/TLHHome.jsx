@@ -136,7 +136,7 @@ const TLHHome = () => {
   ];
 
   return (
-    <div className="space-y-16 pt-6 px-4 md:px-10 ">
+    <div className="space-y-16 md:pt-6 px-4 md:px-10 ">
       {/* Hero Section */}
       <motion.div
         className="text-center flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10"

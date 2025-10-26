@@ -50,7 +50,7 @@ function LandingPage() {
         style={{
           content: {
             maxWidth: '500px',
-            maxHeight: '85vh',
+            maxHeight: 'fit-content',
             margin: 'auto',
             borderRadius: '1rem',
             padding: '0',
@@ -90,7 +90,7 @@ function LandingPage() {
           />
 
           {/* Content */}
-          <div className="p-6">
+          <div className="p-6 absolute bottom-0">
             <Link
               to="education/techleadhers"
               onClick={handleClose}

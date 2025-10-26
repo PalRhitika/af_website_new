@@ -298,7 +298,7 @@ useEffect(() => {
 
               <button
                 onClick={() => openPopup(item.media)}
-                className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-5 py-2 bg-[#fe44ae] text-white font-semibold rounded-full shadow-md hover:bg-pink-600 transition"
+                className="absolute bottom-4 left-1/2 transform -translate-x-1/2 px-5 py-2 bg-[#fe44ae] text-white font-semibold rounded-full shadow-md hover:bg-pink-600 transition text-sm md:text-lg"
               >
                 View Gallery
               </button>

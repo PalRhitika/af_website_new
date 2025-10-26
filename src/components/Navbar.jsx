@@ -178,10 +178,7 @@ function Navbar() {
                   </details>
                       <Link to="/climate-resilience" className={`block ${main === "climate-resilience" ? "font-bold text-[#266d67]" : "text-[#266d67]"}`}>Climate Resilience</Link>
 
-                                <details>
 
-
-                  </details>
                 </div>
               </details>
 

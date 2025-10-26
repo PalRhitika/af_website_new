@@ -26,7 +26,7 @@ function HeroCarousel() {
   }, []);
 
   return (
-    <section id="home" className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] w-full bg-gray-100 overflow-hidden">
+    <section id="home" className="relative h-[70vh] md:h-[75vh] lg:h-[80vh] w-full bg-gray-100 overflow-hidden pt-10">
       <AnimatePresence initial={false} mode="wait">
         <motion.img
           key={HERO_IMAGES[index]}
