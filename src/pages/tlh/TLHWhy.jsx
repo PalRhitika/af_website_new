@@ -91,7 +91,7 @@ const TLHWhy = () => {
           viewport={{ once: true }}
         >
           <img
-            src="../src//assets/img/mentorship.jpg"
+            src="/assets/img/mentorship.jpg"
             alt="Mentorship"
             className="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500"
           />
