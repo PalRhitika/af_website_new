@@ -14,7 +14,7 @@ const researchData = [
     image: "/assets/img/covid.jpg",
     image2:"/assets/img/fundr1.jpg",
     image3:"/assets/img/fr2.jpg",
-    image4:"/assets/img/fr3.jpeg",
+    image4:"/assets/img/fr3.jpg",
     shortDescription:
       "Aaviyanta Foundation launched the COVID Relief Fund to support the community by providing medical aid, food supplies, and hospital assistance. Through generous donations, NPR 2 Lakh was raised and donated to Chhetrapati Hospital to help expand its capacity and serve patients in need.",
     fullDescription: `
@@ -206,7 +206,7 @@ const CommunityInterventions = () => {
         </h2>
         <button
           onClick={() => setSelectedResearch(null)}
-          className="text-gray-500 hover:text-red-500 text-3xl font-bold transition"
+          className="text-gray-500 cursor-pointer hover:text-red-500 text-3xl font-bold transition"
         >
           ×
         </button>

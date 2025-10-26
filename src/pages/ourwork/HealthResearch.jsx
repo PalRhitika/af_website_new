@@ -238,7 +238,7 @@ const HealthResearch = () => {
         </h2>
         <button
           onClick={() => setSelectedResearch(null)}
-          className="text-gray-500 hover:text-red-500 text-3xl font-bold transition"
+          className="text-gray-500 cursor-pointer hover:text-red-500 text-3xl font-bold transition"
         >
           ×
         </button>

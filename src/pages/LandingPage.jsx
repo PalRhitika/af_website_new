@@ -93,6 +93,7 @@ function LandingPage() {
           <div className="p-6">
             <Link
               to="education/techleadhers"
+              onClick={handleClose}
               className="bg-pink-600 hover:bg-white hover:text-white text-white font-semibold px-5 py-2 rounded-full transition"
             >
               Know More

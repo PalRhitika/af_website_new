@@ -23,7 +23,7 @@ const TechLeadHersLayout = () => {
         </div>
 
         {/* TLH Sections */}
-        <main className="space-y-20 md:space-y-32 py-10 w-full overflow-x-hidden">
+        <main className="space-y-20 md:space-y-32 py-10 w-full overflow-x-hidden overflow-y-auto">
           <section id="home" className="px-4 md:px-8 pt-[90px] "><TLHHome /></section>
           <section id="why" className="px-4 md:px-8"><TLHWhy /></section>
           <section id="cohort1" className="px-4 md:px-8"><TLHCohort1 /></section>
