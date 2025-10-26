@@ -16,7 +16,7 @@ const SachetNari = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="./src/assets/img/sachetnari/sachet_nari.png"
+            src="/assets/img/sachetnari/sachet_nari.png"
             alt="Sachet Nari illustration"
             className="w-full md:w-4/5 rounded-2xl shadow-xl"
             loading="lazy"

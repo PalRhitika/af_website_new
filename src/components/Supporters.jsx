@@ -7,23 +7,23 @@ import "swiper/css";
 const supporters = [
   {
     name: "Kathmandu Metropolitan City",
-    logo: "./src/assets/img/kmclogo1.jpg",
+    logo: "/assets/img/kmclogo1.jpg",
   },
   {
     name: "Ratna InTech",
-    logo: "./src/assets/img/ratnaintechlogo.jpg",
+    logo: "/assets/img/ratnaintechlogo.jpg",
   },
   {
     name: "Cedar Gate Technologies",
-    logo: "./src/assets/img/cedarlogo.jpg",
+    logo: "/assets/img/cedarlogo.jpg",
   },
   {
     name: "The Carter Center",
-    logo: "./src/assets/img/sachetnari/carter_logo.svg",
+    logo: "/assets/img/sachetnari/carter_logo.svg",
   },
   {
     name: "Inform Women, Transform Lives (IWTL)",
-    logo: "./src/assets/img/sachetnari/iwtl.png",
+    logo: "/assets/img/sachetnari/iwtl.png",
   },
 ];
 

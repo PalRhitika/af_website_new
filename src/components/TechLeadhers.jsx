@@ -67,7 +67,7 @@ function TechLeadhers() {
             className="flex-1 flex justify-center"
           >
             <img
-              src="/src/assets/img/tlh-image.png"
+              src="/assets/img/tlh-image.png"
               alt="Tech LeadHers"
               className="w-full md:w-3/4 drop-shadow-xl rounded-2xl object-contain"
               loading="lazy"

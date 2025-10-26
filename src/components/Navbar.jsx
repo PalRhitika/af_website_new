@@ -38,7 +38,7 @@ function Navbar() {
           <div className="flex items-center gap-4">
             <Link to="/" className="flex items-center gap-3">
               <img
-                src="/src/assets/img/aflogo.png"
+                src="/assets/img/aflogo.png"
                 alt="AF Logo"
                 className="h-8 w-auto md:h-12 lg:h-14 object-contain"
               />

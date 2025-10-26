@@ -3,18 +3,18 @@ import { AnimatePresence, motion} from "motion/react"
 
 
 const HERO_IMAGES = [
-  '/src/assets/img/tc3.jpg',
-  '/src/assets/img/coverflow2.jpg',
-  '/src/assets/img/website2.jpg',
-  '/src/assets/img/coverflow3.jpg',
-  '/src/assets/img/earthquake.jpg',
-  '/src/assets/img/website6.JPG',
-  '/src/assets/img/tc2.jpg',
-  '/src/assets/img/homeslid2.jpeg',
-  '/src/assets/img/tlh04slid.jpg',
-  '/src/assets/img/website7.jpg',
-  '/src/assets/img/coverflow2.jpg',
-  '/src/assets/img/website3.jpg',
+  '/assets/img/tc3.jpg',
+  '/assets/img/coverflow2.jpg',
+  '/assets/img/website2.jpg',
+  '/assets/img/coverflow3.jpg',
+  '/assets/img/earthquake.jpg',
+  '/assets/img/website6.JPG',
+  '/assets/img/tc2.jpg',
+  '/assets/img/homeslid2.jpeg',
+  '/assets/img/tlh04slid.jpg',
+  '/assets/img/website7.jpg',
+  '/assets/img/coverflow2.jpg',
+  '/assets/img/website3.jpg',
 
 ];
 
